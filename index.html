@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="outer">
+            <div class="logo">
+                <img src="img.png" alt="logo" id="thiru_logo">
+            </div>
+            <div class="search">
+                <form action="">
+                    <input type="search" value="search" placeholder="search" class="ser">
+                </form>
+            </div>
+            <div class="btn">
+                <a href="login.html"> <button class="btn_in">LOGIN</button></a>
+                <a href="signup.html"> <button class="btn_in">SINGUP</button></a>
+
+            </div>
+        </div>
+        <div class="con">
+            <div class="side_note">
+                <h1>Choose your Favorite Food</h1>
+            </div>
+        </div>
+        <div class="boxs">
+
+            <div class="box1">
+                <div class="name">
+                    <div class="img">
+                        <img src="img_1.jpg" alt="img">
+                    </div>
+                    <h2>Biryani</h2>
+                    <div class="selector">
+
+                        <div class="main">
+                            <span id="qa">quantity</span>
+                            <button class="des" id="des" onclick="des('val1','1')">-</button>
+                            <span class="qunatity" id="val1">0 </span>
+                            <button class="des" id="inc" onclick="inc('val1','1')">+</button>
+                        </div>
+                    </div>
+                    <div class="buy">
+                        <button class="buy1">Buy</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="box1">
+                <div class="name">
+                    <div class="img">
+                        <img src="img_1.jpg" alt="img">
+                    </div>
+                    <h2>Biryani</h2>
+                    <div class="selector">
+
+                        <div class="main">
+                            <span id="qa">quantity</span>
+                            <button class="des" id="des" onclick="des('val2','2')">-</button>
+                            <span class="qunatity" id="val2">0</span>
+                            <button class="des" id="inc" onclick="inc('val2','2')">+</button>
+                        </div>
+                    </div>
+                    <div class="buy">
+                        <button class="buy1">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="name">
+                    <div class="img">
+                        <img src="img_1.jpg" alt="img">
+                    </div>
+                    <h2>Biryani</h2>
+                    <div class="selector">
+
+                        <div class="main">
+                            <span id="qa">quantity</span>
+                            <button class="des" id="des" onclick="des()">-</button>
+                            <span class="qunatity" id="val3">0</span>
+                            <button class="des" id="inc" onclick="inc()">+</button>
+                        </div>
+
+                    </div>
+                    <div class="buy">
+                        <button class="buy1">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="side">
+            <div class="side_img">
+                <!-- <img src="/bg_img.jpeg" alt="img" srcset=""> -->
+            </div>
+            <div class="para">
+                <h4>People who love to <br>eat are always th best <br>People</h4>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="loaction">
+                <i class="fa-solid fa-location-dot"></i> food.....!
+            </div>
+            <div class="contact">
+                <div class="copy">copy Right @2024</div>
+                <div class="icons">
+                    <div class="icon1"><i class="fa-brands fa-instagram"></i></div>
+                    <div class="icon1"><i class="fa-brands fa-facebook"></i></div>
+                    <div class="icon1"><i class="fa-brands fa-linkedin"></i></div>
+                </div>
+            </div>
+
+        </div>
+        <script src="app.js"></script>
+    </div>
+</body>
+
+</html>
